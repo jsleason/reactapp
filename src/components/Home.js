@@ -4,12 +4,12 @@ import './style/Home.css';
 class Home extends Component {
     render() {
         return (
-          <div class="Home">
+          <div className="Home">
             <br/>
             <div className="wrapper">
               <div className="bottle">
                 <center>
-                  <img src="http://plasticdetox.me/static/media/PlasticBottle.63125dad.png"/>
+                  <img src="http://plasticdetox.me/static/media/PlasticBottle.63125dad.png" alt=""/>
                 </center>
               </div>
               <div className="two">

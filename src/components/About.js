@@ -10,7 +10,7 @@ class About extends Component {
                 <center>
                 <br/>
                 <div className="img">
-                  <img src="http://plasticdetox.me/static/media/PlantTheSeed.efba3275.png"/>
+                  <img src="http://plasticdetox.me/static/media/PlantTheSeed.efba3275.png" alt=""/>
                 </div>
                 </center>
                 <div>

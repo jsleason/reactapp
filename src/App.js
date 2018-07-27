@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Community from './components/Community'
-import About from './components/About'
-import Partners from './components/Partners'
-import SupportPartners from './components/SupportPartners'
-import Footer from './components/Footer'
-
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Community from './components/Community';
+import About from './components/About';
+import Partners from './components/Partners';
+import SupportPartners from './components/SupportPartners';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {

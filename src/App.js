@@ -7,6 +7,7 @@ import Partners from './components/Partners';
 import SupportPartners from './components/SupportPartners';
 import Footer from './components/Footer';
 import Main from './components/Main';
+import Philosophy from './components/Philosophy';
 import { Link } from 'react-router-dom';
 import './App.css';
 
@@ -20,6 +21,7 @@ class App extends Component {
         </header>
         <div>
           <Home/>
+          <Philosophy/>
           <Community/>
           <About/>
           <Partners/>

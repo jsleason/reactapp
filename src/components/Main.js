@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from './Home';
+import Philosophy from './Philosophy';
 import Community from './Community';
 import Partners from './Partners';
 import About from './About';
@@ -11,7 +11,7 @@ class Main extends Component {
     <main>
     <Switch>
       <Route path='/impact' component={ About } />
-      <Route path='/philosophy' component={ Home } />
+      <Route path='/philosophy' component={ Philosophy } />
       <Route path='/community' component={ Community } />
       <Route path='/partners' component={ Partners } />
     </Switch>

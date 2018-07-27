@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Community from './components/Community'
 import './App.css';
 
 class App extends Component {
@@ -7,10 +9,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <h1>PLASTICDETOX</h1>
+        <h1 className="App-title">PLASTICDETOX</h1>
         <Navbar />
         </header>
-
+        <Home />
+        <Community />
       </div>
     );
   }

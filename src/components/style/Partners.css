@@ -1,5 +1,6 @@
-.Home{
-    background-color: rgb(51, 197, 211);
+.Partners{
+    background-color: rgb(178, 234, 170);
+    text-align: center;
 }
 .wrapper {
   display: grid;
@@ -22,8 +23,8 @@
   grid-row: 1;
   background-color: white;
 }
-.bottle{
-  grid-column: 1;
+.four {
+  grid-column: 4;
   grid-row: 1;
-  width: 80%;
+  background-color: white;
 }

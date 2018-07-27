@@ -1,0 +1,29 @@
+.Community{
+    background-color: rgb(222, 168, 96);
+    text-align: center;
+}
+.wrapper {
+  display: grid;
+  width: 90%;
+  grid-auto-columns: auto;
+  grid-column-gap: 10%;
+}
+
+.one {
+  grid-column: 1;
+}
+.two {
+  grid-column: 2;
+}
+.three{
+  grid-column: 3;
+}
+
+.text{
+  background-color: white;
+  grid-row: 2;
+}
+.logo{
+  grid-row: 1;
+  background-color: grey;
+}

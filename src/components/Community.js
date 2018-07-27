@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import './Community.css';
+import './style/Community.css';
 
 class Community extends Component {
     render() {
         return (
             <div className="Community">
+              <center>
               <div>
+                <br/>
                 <h1>The Plastic Detox Community</h1>
               </div>
               <div className="wrapper">
@@ -35,6 +37,7 @@ class Community extends Component {
                 </div>
               </div>
               <br/>
+              </center>
             </div>
         )
     }
